@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HP Student Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f2f4f7;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      background: #0066cc;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #004999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>HP Student Portal</h2>
+    <p>Student login ke liye niche button par click karein</p>
+    <button onclick="openPortal()">Open Portal</button>
+  </div>
+
+  <script>
+    function openPortal() {
+      window.location.href = "http://nstudentportal.hpushimla.in";
+    }
+  </script>
+
+</body>
+</html>
